@@ -11,9 +11,9 @@ Nome completo (iniciais)
 Nome completo (iniciais)
 Nome completo (iniciais)
 Emerson Victor Ferreira da Luz (evfl)
-Nome completo (iniciais)
+Ewerton Felipe Ferreira da Silva (effs)
 
-Emails:  {iniciais, iniciais, iniciais, iniciais, evfl, iniciais}@cin.ufpe.br
+Emails:  {iniciais, iniciais, iniciais, iniciais, evfl, effs}@cin.ufpe.br
 Data:   2017-11-28
 '''
 
