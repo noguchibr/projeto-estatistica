@@ -27,18 +27,37 @@ class Particle:
         self.x = x
         self.y = y
 
+    def __str__(self):
+        return "(x:{0}, y:{1})".format(self.x, self.y)
+
     def walk(self, direction):
         '''
             Método que realiza caminhada da particula de acordo
             com a direção passada como parâmetro
         '''
         if direction == "top":
-            self.y -= 1
+            if self.y > 0:
+                self.y -= 1
+            else:
+                self.y = 24
+
         elif direction == "right":
-            self.x += 1
+            if self.x < 25:
+                self.x += 1
+            else:
+                self.x = 1
+
         elif direction == "bottom":
-            self.y += 1
+            if self.y < 25:
+                self.y += 1
+            else:
+                self.y = 1
+
         elif direction == "left":
-            self.x -= 1
+            if self.x > 0:
+                self.x -= 1
+            else:
+                self.x = 24
+
         else:
             raise ValueError("Direction {0} invalid".format(direction))
